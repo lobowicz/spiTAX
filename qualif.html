@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See if you qualify</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body class="qualif-body">
+    
+    <div class="overview-header-container">
+        <img src="./images/left-icon.png" alt="previous button" class="overview-header-left-back">
+        <img src="./images/logo.png" alt="spiTAX logo" class="overview-spitax-logo">
+        <img src="./images/right-icon.png" alt="next button" class="overview-header-right-back">
+    </div>
+
+    <div class="overview-quick-container">
+        <img src="./images/welcome.png" alt="subheading title" class="quick-overview-heading">
+    </div>
+
+    <div class="welcome-body">
+        <div class="welcome-subtext">Answer the questions below to see if you qualify to use the first version of this tool.</div>
+        
+        <form class="qualification-questions" action="" method="">
+            <div class="question-container">
+                <div class="qq">What is your filing status?</div>
+                <div class="qa">
+                    <input type="radio" id="qa0a" name="single" value="Single">
+                    <label for="qa0a">Single</label>
+                </div>
+                <div class="qa">
+                    <input type="radio" id="qa0b" name="single" value="Married">
+                    <label for="qa0b">Married</label>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <div class="qq">Have you been a US citizen, by birth or naturalization on the last day of 2023?</div>
+                <div class="qa">
+                    <input type="radio" id="qa1a" name="citizen" value="Yes">
+                    <label for="qa1a">Yes</label>
+                </div>
+                <div class="qa">
+                    <input type="radio" id="qa1b" name="citizen" value="No">
+                    <label for="qa1b">No</label>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <div class="qq">Have you ever been a green card holder?</div>
+                <div class="qa">
+                    <input type="radio" id="qa2a" name="green" value="Yes">
+                    <label for="qa2a">Yes</label>
+                </div>
+                <div class="qa">
+                    <input type="radio" id="qa2b" name="green" value="No">
+                    <label for="qa2b">No</label>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <div class="qq">Have you ever applied for US citizenship/ lawful residence?</div>
+                <div class="qa">
+                    <input type="radio" id="qa3a" name="residence" value="Yes">
+                    <label for="qa3a">Yes</label>
+                </div>
+                <div class="qa">
+                    <input type="radio" id="qa3b" name="residence" value="No">
+                    <label for="qa3b">No</label>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <div class="qq">Were you unemployed in 2023? This includes on-campus employment and internships.</div>
+                <div class="qa">
+                    <input type="radio" id="qa4a" name="job" value="Yes">
+                    <label for="qa4a">Yes</label>
+                </div>
+                <div class="qa">
+                    <input type="radio" id="qa4b" name="job" value="No">
+                    <label for="qa4b">No</label>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <div class="qq">Is your student VISA different from the following: F, J, M, Q?</div>
+                <div class="qa">
+                    <input type="radio" id="qa5a" name="visa" value="Yes">
+                    <label for="qa5a">Yes</label>
+                </div>
+                <div class="qa">
+                    <input type="radio" id="qa5b" name="visa" value="No">
+                    <label for="qa5b">No</label>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <div class="qq">Do you have any dependents?</div>
+                <div class="qq">A dependent is a person who relies on you for financial support and can include children or other relatives.</div>
+                <div class="qa">
+                    <input type="radio" id="qa6a" name="dependent" value="Yes">
+                    <label for="qa6a">Yes</label>
+                </div>
+                <div class="qa">
+                    <input type="radio" id="qa6b" name="dependent" value="No">
+                    <label for="qa6b">No</label>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <div class="qq">Is your country of origin in the table below?</div>
+                <table class="treaty">
+                    <tr>
+                        <td>Bangladesh</td>
+                        <td>Belgium</td>
+                        <td>Bulgaria</td>
+                        <td>Canada</td>
+                        <td>China</td>
+                        <td>Cyprus</td>
+                    </tr>
+                    <tr>
+                        <td>Czech Republic</td>
+                        <td>Egypt</td>
+                        <td>Estonia</td>
+                        <td>France</td>
+                        <td>Germany</td>
+                        <td>Iceland</td>
+                    </tr>
+                    <tr>
+                        <td>Indonesia</td>
+                        <td>Israel</td>
+                        <td>South Korea</td>
+                        <td>Latvia</td>
+                        <td>Lithuania</td>
+                        <td>Malta</td>
+                    </tr>
+                    <tr>
+                        <td>Morocco</td>
+                        <td>Netherlands</td>
+                        <td>Norway</td>
+                        <td>Pakistan</td>
+                        <td>Philippines</td>
+                        <td>Poland</td>
+                    </tr>
+                    <tr>
+                        <td>Portugal</td>
+                        <td>Romania</td>
+                        <td>Slovak Republic</td>
+                        <td>Slovenia</td>
+                        <td>Spain</td>
+                        <td>Thailand</td>
+                    </tr>
+                </table>
+                <div class="qa">
+                    <input type="radio" id="qa7a" name="origin" value="Yes">
+                    <label for="qa7a">Yes</label>
+                </div>
+                <div class="qa">
+                    <input type="radio" id="qa7b" name="origin" value="No">
+                    <label for="qa7b">No</label>
+                </div>
+            </div>
+            
+            <div class="button-container">
+                <button type="button" class="qual-submit">Submit</button>
+            </div>
+        
+        </form>
+    
+
+        <script src="./script.js"></script>
+
+    
+    
+    </div>
+
+    
+
+
+
+
+
+</body>
+</html>

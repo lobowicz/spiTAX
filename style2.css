@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+div.header {
+    background-color: #1F2937;
+    height: auto;
+}
+
+div.header-container {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    height: 110px;
+}
+
+img.main-logo {
+    flex: 1;
+    height: 85%;
+    max-width: 100%;
+
+}
+
+div.tax-year-info {
+    flex: 10;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+div.welcome-body {
+    background-color: rgb(203, 248, 242);
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+
+div.welcome-subtext {
+    font-size: 30px;
+    font-weight: lighter;
+    width: 1000px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    color: rgb(78, 5, 100);
+}
+
+form.qualification-questions {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+input[type=radio] {
+    accent-color: black;
+    cursor: pointer;
+}
+
+div.question-container {
+    margin-bottom: 20px;
+}
+
+div.qq {
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+div.qa label {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+table.treaty {
+    margin-bottom: 10px;
+    font-weight: lighter;
+   
+}
+
+table.treaty tr td {
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+div.button-container {
+    display: flex;
+    justify-content: right;
+}
+
+button.qual-submit {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    border-radius: 10px;
+    background-color: navajowhite;
+    padding: 5px;
+}
+
+button.qual-submit:hover {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    border-radius: 10px;
+    background-color: rgb(226, 180, 112);
+    padding: 5px;
+}
+
+div.output-message {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 50px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.continue-container {
+    display: flex;
+    justify-content: right;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.continue-button {
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+    background-color: rgb(203, 248, 242);
+    padding: 0;
+}
+
+
+
+
+body.overview-body, body.review-main-body {
+    background-color: rgb(203, 248, 242);
+}
+
+div.overview-header-container, div.review-header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+
+}
+
+div.overview-quick-body, div.documents-needed-body, div.basic-info-body, 
+div.review-body, div.filing-instr-body {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+div.overview-quick-container, div.documents-needed-container, div.basic-info-container, 
+div.review-heading-container, div.filing-heading-container {
+    display: flex;
+    justify-content: center;
+}
+
+div.quick-details-container, div.needed-details-container, div.basic-info-body-container,
+div.refund-owe-status {
+    display: flex;
+    justify-content: center;
+    
+}
+
+div.quick-details-container ul, div.needed-details-container ul {
+    width: 60%;
+}
+
+div.quick-details-container ul li, div.needed-details-container ul li {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+div.basic-info-question-container {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+form.basic-info-questions-form {
+    margin-top: 20px;
+    width: 65%;
+}
+
+div.biq {
+    font-weight: lighter;
+    font-size: 25px;
+}  
+
+div.bia label {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button.form-submit {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    border-radius: 10px;
+    background-color: navajowhite;
+    padding: 5px;
+}
+
+button.form-submit:hover {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    border-radius: 10px;
+    background-color: rgb(226, 180, 112);
+    padding: 5px;
+}
+
+div.offset-expenses, div.w2-heading, div.form-1040-S-heading {
+    font-size: 25px;
+    
+}
+
+div.refund-owe-status-container {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+div.refund-owe-status {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(201,130,221);
+}
+
+div.refund-owe-status-details {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+div.test-cont {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.refund-owe-status-details-container li {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+div.form-1040-nr-container {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+body.qualif-body {
+    background-color: rgb(203, 248, 242);
+}
